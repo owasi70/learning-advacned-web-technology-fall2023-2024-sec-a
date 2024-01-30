@@ -32,3 +32,12 @@ let doubledigit= digits.map(function(digit){
 });
 
 console.log(doubledigit);
+
+const fixedNumbers = [1,2,3,4,5,6,7,8,9];
+const evenNumbers = fixedNumbers.filter(function(num){
+    return num % 2 ===0;
+
+});
+
+console.log(evenNumbers);
+
