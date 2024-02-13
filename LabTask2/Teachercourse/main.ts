@@ -16,7 +16,12 @@ teacher1.studentenrollment(student1,course2);
 teacher1.studentenrollment(student1,course1);
 teacher1.studentenrollment(student2,course3);
 
-const EnrollementforCourse = teacner1.
+const studentenrollmentcourse2 = teacher1.displayenrolledstrudent(course2);
+console.log("Student Enrolled In History: ");
+studentenrollmentcourse2.forEach(Student => 
+    {
+        console.log(`Name: ${Student.studentname}, ID: ${Student.studentid}`);
+    });
 
 
 
